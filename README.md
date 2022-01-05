@@ -32,3 +32,5 @@ to the gemfile, after following the documentation.
 Also create a custom.css.scss file in app\assests\stylesheets\
 and add @import 'semantic-ui'; in it
 
+Javascript not being rendered to function the dropdrown. hence keeping options in the navbar itself
+
