@@ -22,3 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+Fixed error of javascrpt_pack_tag by updating node version to be compactible with webpacker
