@@ -5,7 +5,7 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version : 6 
 
 * System dependencies
 
@@ -24,3 +24,11 @@ Things you may want to cover:
 * ...
 
 Fixed error of javascrpt_pack_tag by updating node version to be compactible with webpacker
+
+errors with integrating semantic-ui fixed by adding:
+gem 'sprockets-rails'
+gem 'sassc-rails'
+to the gemfile, after following the documentation.
+Also create a custom.css.scss file in app\assests\stylesheets\
+and add @import 'semantic-ui'; in it
+
